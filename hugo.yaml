@@ -1,0 +1,59 @@
+baseURL: "https://benaitcheson.github.io/"
+locale: "en-us"
+title: "Ben Aitcheson"
+theme: "PaperMod"
+
+# PaperMod recommends these
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Ben Aitcheson"
+  description: "My personal blog."
+  author: "Ben Aitcheson"
+  defaultTheme: auto        # auto | light | dark
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+
+  homeInfoParams:
+    Title: "Hi 👋"
+    Content: >
+      Welcome to my blog. I write about software, infrastructure, and whatever else I'm tinkering with.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/benaitcheson"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON   # needed for search
