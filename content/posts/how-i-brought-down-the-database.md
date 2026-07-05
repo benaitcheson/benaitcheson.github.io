@@ -10,6 +10,8 @@ This is the written-up version of a talk I gave at **BrisRails** about backfilli
 enormous amounts of data at Tanda — how I managed to take production down, and
 everything we built afterwards so it can't happen again.
 
+> 📽️ **[View the slides →](/talks/brisrails-backfill/)** &nbsp;(arrow keys to navigate, `F` for fullscreen, `N` for speaker notes)
+
 If there's one thing to take away up front, it's the line I kept coming back to:
 
 > If there's an issue, it's an issue with the *system*, not the reviewer.
