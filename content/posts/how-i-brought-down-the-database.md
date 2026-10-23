@@ -1,6 +1,6 @@
 ---
 title: "How I Brought Down the Database (Twice), So You Don't Have To"
-date: 2026-07-05T09:00:00+10:00
+date: 2026-07-05T11:25:00+10:00
 draft: false
 tags: ["postgres", "rails", "backfills", "databases", "talks"]
 summary: "A BrisRails talk write-up: backfilling enormous amounts of data at Tanda, causing a failover (or two), and everything we built afterwards so it can't happen again."
