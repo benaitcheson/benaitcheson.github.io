@@ -11,6 +11,10 @@ enormous amounts of data at Tanda — how I managed to take production down, and
 everything we built afterwards so it can't happen again.
 
 > 📽️ **[View the slides →](/talks/brisrails-backfill/)** &nbsp;(arrow keys to navigate, `F` for fullscreen, `N` for speaker notes)
+>
+> 🎥 **[Watch the talk on YouTube →](https://www.youtube.com/watch?v=dtFXOuOlfeY)**
+
+{{< youtube dtFXOuOlfeY >}}
 
 If there's one thing to take away up front, it's the line I kept coming back to:
 
